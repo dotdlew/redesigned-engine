@@ -11,6 +11,6 @@ A website that offers fitness training services.
 https://dotdlew.github.io/redesigned-engine/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by dlewis
 
 ### ©️2019 Run Buddy, Inc 
