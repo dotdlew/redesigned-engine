@@ -1,12 +1,11 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   color: #39a6b2;
-  display: block;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -81,15 +80,11 @@ footer a {
 /* homepage hero */
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
-  height: 600px;
+  background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
-  margin: 20px;
-  background-color: white;
-  font-size: 20px;
-  color: blue;
+  height: 600px;
 }
 
 /* privacy page hero */
@@ -107,9 +102,9 @@ footer a {
   padding: 20px;
   width: 500px;
   color: #024e76;
-  position: relative;
-  bottom: 0px;
-  right: 0px;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
 }
 
 .hero-form h3 {
