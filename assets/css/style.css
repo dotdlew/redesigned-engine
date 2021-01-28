@@ -143,49 +143,35 @@ footer a {
 }
 
 .hero-form button {
-  color: #fce138;
   background-color: #024e76;
-  border: none;
   padding: 10px 20px;
+  color: #fce138;
   font-size: 16px;
+  border: none;
 }
 
 .form-input {
   border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
   margin-bottom: 15px;
-}
-
-.intro {
-  text-align: center;
-}
-
-/* .intro h2 {
-  font-size: 55px;
+  padding: 7px 15px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  display: inline-block;
-} */
+  font-size: 16px;
+  display: block;
+  width: 100%;
+}
 
 .intro p {
+  text-align: center;
   line-height: 1.7;
   color: #39a6b2;
-  width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  width: 80%;
 }
 
 /* what-you-do styling */
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -213,24 +199,14 @@ footer a {
   font-size: 38px;
 }
 
-/* .steps h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #39a6b2;
-} */
-
-/* combines .intro h2 and .steps h2 */
-
 .section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
+  margin: 0 auto 35px auto;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #024e76;
+  font-size: 55px;
+  width: 50%;
 }
 
 .primary-border {
@@ -244,15 +220,14 @@ footer a {
 /* trainer card styling */
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
-  width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
   overflow: auto;
+  width: 900px;
 }
 
 .trainer img {
@@ -294,7 +269,6 @@ footer a {
 
 .contact {
   background: #024e76;
-  text-align: center;
 }
 
 .contact h2 {
@@ -329,4 +303,8 @@ footer a {
 
 .contact-info a {
   color: #fce138;
+}
+
+.flex-row {
+  display: flex;
 }
